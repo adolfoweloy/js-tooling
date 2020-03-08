@@ -48,3 +48,7 @@ Running babel `$(npm bin)/babel ./src/greeting.js --presets=@babel/preset-env`
 - Added React with `npm i -S react react-dom prop-types`.
 - Created an `App.js` with an `App` component declared as a class component and imported it within `index.js`.
 - In order to allow babel to understand JSX, I added the preset `@babel/preset-react` with `npm i -D @babel/preset-react`
+
+### injecting react js in the html
+
+added an html template and installed/configured `html-webpack-plugin` 
