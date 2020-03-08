@@ -34,3 +34,11 @@ module.exports = {
     ...
 }
 ```
+
+### installing babel
+
+Here I started using modern javascript (i.e arrow functions) and used babel to transpile this code to something that browsers will be able to run.
+
+Installing babel `npm i -D @babel/core @babel/cli @babel/preset-env`
+
+Running babel `$(npm bin)/babel ./src/greeting.js --presets=@babel/preset-env`
