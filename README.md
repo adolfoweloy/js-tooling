@@ -24,3 +24,13 @@ It's possible to notice the usage of `__dirname` which is provided by the functi
 more about it can be found in the following links:
 - https://blog.risingstack.com/node-js-at-scale-module-system-commonjs-require/
 - https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/
+
+## setting the mode with webpack config
+
+This was as simple as follows which was just adding the property `mode` to webpack config object:
+```
+module.exports = {
+    mode: 'development',
+    ...
+}
+```
