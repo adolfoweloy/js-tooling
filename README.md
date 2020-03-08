@@ -42,3 +42,9 @@ Here I started using modern javascript (i.e arrow functions) and used babel to t
 Installing babel `npm i -D @babel/core @babel/cli @babel/preset-env`
 
 Running babel `$(npm bin)/babel ./src/greeting.js --presets=@babel/preset-env`
+
+### adding reactjs
+
+- Added React with `npm i -S react react-dom prop-types`.
+- Created an `App.js` with an `App` component declared as a class component and imported it within `index.js`.
+- In order to allow babel to understand JSX, I added the preset `@babel/preset-react` with `npm i -D @babel/preset-react`
