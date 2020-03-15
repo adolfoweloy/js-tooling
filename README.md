@@ -73,3 +73,7 @@ import './styles.css'
 ### testing
 
 npm i -D jest react-testing-library jest-dom
+
+
+### sourcecode for this course
+https://github.com/avanslaars/egghead-react-boilerplate/tree/master
