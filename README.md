@@ -52,3 +52,19 @@ Running babel `$(npm bin)/babel ./src/greeting.js --presets=@babel/preset-env`
 ### injecting react js in the html
 
 added an html template and installed/configured `html-webpack-plugin` 
+
+### injecting css
+
+add css-loader and style-loader with npm for dev purposes
+load it within rules such as follows (notice that the order of loaders matters here):
+```
+{
+    test: /\.css$/,
+    use: [ 'style-loader', 'css-loader' ],
+    exclude: /node_modules/
+}
+```
+then import the css file from within index.js as follows:
+```
+import './styles.css'
+```
