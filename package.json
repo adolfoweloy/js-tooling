@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --config webpack.config.dev.js",
+    "dev:hot": "webpack-dev-server --hot --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js"
   },
   "author": "",
@@ -28,6 +29,7 @@
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "react-hot-loader": "^4.12.20"
   }
 }
