@@ -68,3 +68,8 @@ then import the css file from within index.js as follows:
 ```
 import './styles.css'
 ```
+
+
+### testing
+
+npm i -D jest react-testing-library jest-dom
